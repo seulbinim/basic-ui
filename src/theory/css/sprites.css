@@ -1,0 +1,16 @@
+@import url(/style/reset.css);
+@import url(/style/base.css);
+@import url(/theory/css/grid.css);
+
+/* 스프라이트 이미지 */
+.sprite{
+  height: 60px;
+  background-color: hotpink;
+  background-image: url(/images/sprite_main.png);
+  background-repeat: no-repeat;
+  text-indent: 65px;
+}
+
+.news .sprite{
+  background-position: 0 -230px;
+}
