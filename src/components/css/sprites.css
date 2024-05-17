@@ -1,0 +1,39 @@
+@import url(/style/reset.css);
+@import url(/style/base.css);
+@import url(/theory/css/grid.css);
+
+/* 스프라이트 이미지 */
+.sprite{
+  height: 60px;
+  background: yellow url(/images/sprite_main.png) no-repeat;
+  padding-left: 64px;
+}
+
+.sprite-book{
+  background-position: 0 0;
+}
+.sprite-news{
+  background-position: 0 -230px;
+}
+.sprite-board{
+  background-position: 0 -115px;
+}
+.sprite-favorite{
+  background-position: 0 -345px;
+}
+.sprite-twitter{
+  background-position: 0 -460px;
+}
+
+/* 헤드라인 스타일 */
+.headline{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* flex 레이아웃 스타일 */
+.flex-items-center{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
