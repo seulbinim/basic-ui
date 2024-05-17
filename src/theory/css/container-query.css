@@ -1,0 +1,70 @@
+@import url(/style/reset.css);
+@import url(/style/theme.css);
+@import url(/style/base.css);
+
+body{
+  margin: 20px;
+}
+
+h1{
+  margin-bottom: 50px;
+}
+
+/* 카드 컴포넌트 */
+.post{
+  container-type: inline-size;
+
+  .card{
+    border: 1px solid #aaa;
+    border-radius: 0.5rem;
+    background: #ccc linear-gradient(to bottom, #ccc, #eee);
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.5rem;
+
+  }
+
+  h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    @container (min-width: 400px){
+      font-size: 2rem;
+    }
+
+    @container (min-width: 600px){
+      font-size: 3rem;
+    }
+  }
+
+  p{
+    line-height: 1.5;
+  }
+}
+
+/* 카드 레이아웃 */
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  gap: 20px;
+
+  @media (min-width: 768px){
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .large-box{
+    container-type: inline-size;
+    container-name: box;
+
+    @container box (min-width: 500px){
+      .card{
+        background-image: linear-gradient(to bottom, red, green)
+      }
+      h2{
+        color: yellow;
+      }
+    }
+  }
+}
