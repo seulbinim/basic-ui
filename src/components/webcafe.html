@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="/theory/css/grid-guide.css" />
     <link rel="stylesheet" href="/theory/css/default.css" />
     <link rel="stylesheet" href="/theory/css/webcafe.css" />
+    <link rel="stylesheet" href="/components/css/sprites.css" />
     <script type="module" src="/theory/js/grid-guide.js"></script>
     <script type="module" src="/js/navigation.js"></script>
+
   </head>
   <body>
     <div class="container">
@@ -33,10 +35,10 @@
       </div>
       <div class="main grid-container">
         <div class="book cols-12 lg-cols-4">
-          <div class="sprite">추천서적</div>
+          <div class="flex-items-center headline sprite sprite-book">추천서적</div>
         </div>
         <div class="news cols-12 lg-cols-8">
-          <div class="sprite">새소식</div>
+          <div class="flex-items-center headline sprite sprite-news">새소식</div>
           <figure class="iframe-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/pDEXW5jTNyw?si=-Z98Dj-6ZzqWksgT" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             <figcaption class="sr-only">구글 개발자 이야기</figcaption>
@@ -44,9 +46,15 @@
           <p>구글플레이는 다양한 분야에서 활약하고 있는 국내 개발사들을 모시고 직접 이야기를 나눠보는 ‘구글플레이 개발자와의 대화’ 행사를 정기적으로 개최할 예정입니다. 오늘 3월 29일(수) 구글 캠퍼스 서울에서 열린 첫 번째 ‘구글플레이 개발자와의 대화’는 ‘해외에서 빵터진 한국 앱'을 주제로 진행됐는데요, 국내 앱 시장은 물론 글로벌 시장에서도 주목 받으며 글로벌 진출의 본보기가 되고 있는 개발사 세 곳과 함께 했습니다.</p>
           <time datetime="2024-05-16T05:20:30"><span class="fas fa-calendar-days"></span>2024.05.16</time>
         </div>
-        <div class="board cols-12 lg-cols-4">게시판</div>
-        <div class="favorite cols-12 lg-cols-3">인기 사이트</div>
-        <div class="twitter cols-12 lg-cols-5">트위터</div>
+        <div class="board cols-12 lg-cols-4">
+          <div class="flex-items-center headline sprite sprite-board">게시판</div>
+        </div>
+        <div class="favorite cols-12 lg-cols-3">
+          <div class="flex-items-center headline sprite sprite-favorite">인기사이트</div>
+        </div>
+        <div class="twitter cols-12 lg-cols-5">
+          <div class="flex-items-center headline sprite sprite-twitter">트위터</div>
+        </div>
       </div>
       <div class="footer">푸터</div>
     </div>

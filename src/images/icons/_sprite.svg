@@ -1,0 +1,20 @@
+<svg width="0" height="0" fill="none" style="visibility: hidden; position: absolute;" aria-hidden="true">
+    <symbol id="dot_circled" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="Frame 24__dot_circled">
+            <circle id="Ellipse 1__dot_circled" cx="10" cy="10" r="6.5" stroke="currentColor"/>
+            <circle id="Ellipse 2__dot_circled" cx="10" cy="10" r="3" fill="currentColor"/>
+        </g>
+    </symbol>
+    <symbol id="left_open" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Vector 1__left_open" d="M7.5 2L2.5 7L7.5 12" stroke="#ED552F" stroke-width="3"/>
+    </symbol>
+    <symbol id="plus" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Union__plus" d="M10 0.5H6V6.5H0V10.5H6V16.5H10V10.5H16V6.5H10V0.5Z" fill="#447231"/>
+    </symbol>
+    <symbol id="right_open" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 2L9 7L4 12" stroke="#ED552F" stroke-width="3"/>
+    </symbol>
+    <symbol id="search" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Union__search" fill-rule="evenodd" clip-rule="evenodd" d="M7.14574 8.55995C6.45201 8.99709 5.63054 9.25 4.75 9.25C2.26472 9.25 0.25 7.23528 0.25 4.75C0.25 2.26472 2.26472 0.25 4.75 0.25C7.23528 0.25 9.25 2.26472 9.25 4.75C9.25 5.63054 8.99709 6.45201 8.55995 7.14574L11.4571 10.0429C11.8476 10.4334 11.8476 11.0666 11.4571 11.4571C11.0666 11.8476 10.4334 11.8476 10.0429 11.4571L7.14574 8.55995ZM7.25 4.75C7.25 6.13071 6.13071 7.25 4.75 7.25C3.36929 7.25 2.25 6.13071 2.25 4.75C2.25 3.36929 3.36929 2.25 4.75 2.25C6.13071 2.25 7.25 3.36929 7.25 4.75Z" fill="#181818"/>
+    </symbol>
+</svg>

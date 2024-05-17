@@ -37,3 +37,51 @@
   flex-flow: row nowrap;
   align-items: center;
 }
+
+[class^="icon"]{
+  width: 100px;
+  height: 100px;
+}
+
+.svg-icon-search{
+  width: 150px;
+  height: 150px;
+
+  path{
+    fill: red;
+
+    @media (prefers-color-scheme: dark) {
+      fill: blue;
+    }
+  }
+}
+
+/* svg 배경이미지 */
+.plus{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  mask-image: url(/images/icons/plus.svg);
+  mask-repeat: no-repeat;
+  mask-size: contain;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: green;
+  }
+}
+
+[role="img"]{
+  width: 100px;
+  height: 100px;
+
+  circle{
+    fill: red;
+  }
+}
+
+.sprite-icon{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  background-image: url(/images/icons/_sprite.svg#search);
+}
