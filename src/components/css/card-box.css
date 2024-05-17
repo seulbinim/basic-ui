@@ -26,9 +26,3 @@ h1{
     grid-template-columns: 1fr 1fr;
   }
 }
-
-@media (min-width: 1025px){
-  .container{
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-}
