@@ -79,9 +79,15 @@
   }
 }
 
-.sprite-icon{
+.sprite-icon1{
   width: 100px;
   height: 100px;
-  background-color: yellow;
-  mask-image: url(/images/icons/stack.svg#search);
+  background-color: green;
+  mask-image: url(/images/icons/stack.svg#dot_circled);
+}
+
+.sprite-icon2{
+  width: 100px;
+  height: 100px;
+  background-image: url(/images/icons/stack.svg#plus);
 }
