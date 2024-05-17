@@ -12,31 +12,22 @@
     grid-auto-rows: auto;
     gap: 1rem;
     color: #4A5569;
-
-    @container (max-width: 500px){
-      grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr;
+    padding: 1rem;
 
     @container (min-width: 500px){
       grid-template-columns: 3fr 7fr;
-      grid-template-rows: minmax(50px, auto);
-    }
-
-    h2, p, ul{
-      padding: 0 1rem;
+      grid-template-rows: minmax(20px, auto);
     }
 
     h2{
       font-size: 1.25rem;
       font-weight: 700;
-      align-self: center;
     }
 
     figure{
       order: -1;
-      padding: 1rem;
       grid-area: 1 / 1 /4 /2;
-      /* align-self: center; */
 
       img{
         border-radius: 0.25rem 0.25rem 0 0;
@@ -51,12 +42,11 @@
     }
 
     ul{
-      align-self: center;
-      margin: 0.5rem 0 1rem;
       display: flex;
       flex-flow: row wrap;
       gap: 0.5rem;
       font-size: 0.625rem;
+      align-self: end;
 
       li{
         padding: 0.25rem 0.5rem;
